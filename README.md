@@ -1,4 +1,4 @@
-# Peliculas TMDB
+# Películas TMDB
 
 Esta aplicación web en Nuxt.vue está diseñada para buscar y mostrar películas utilizando la API gratuita de TMDb. Se ha integrado PrimeVue para mejorar la interfaz de usuario con componentes estilizados y funcionales.
 
