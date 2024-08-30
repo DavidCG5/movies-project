@@ -1,10 +1,8 @@
 # Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Esta aplicación web en Nuxt.vue está diseñada para buscar y mostrar películas utilizando la API gratuita de TMDb. Se ha integrado PrimeVue para mejorar la interfaz de usuario con componentes estilizados y funcionales.
 
-## Setup
-
-Make sure to install the dependencies:
+## Instalar dependencias
 
 ```bash
 # npm
@@ -20,7 +18,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Despliegue en local
 
 Start the development server on `http://localhost:3000`:
 
@@ -38,38 +36,11 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Estructura del Proyecto
+- Componentes Principales:
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<Navbar />: Barra de navegación en la parte superior de la página.
+<Banner />: Componente que muestra un banner destacado.
+<SearchBar />: Componente para realizar búsquedas de películas y emitir eventos para actualizar la lista de películas.
+<Loading />: Componente que muestra un indicador de carga mientras se obtienen los datos.
+<Movie />: Componente que representa una película individual en la interfaz de usuario.
