@@ -39,8 +39,12 @@ bun run dev
 ## Estructura del Proyecto
 - Componentes Principales:
 
-<Navbar />: Barra de navegación en la parte superior de la página.
-<Banner />: Componente que muestra un banner destacado.
-<SearchBar />: Componente para realizar búsquedas de películas y emitir eventos para actualizar la lista de películas.
-<Loading />: Componente que muestra un indicador de carga mientras se obtienen los datos.
-<Movie />: Componente que representa una película individual en la interfaz de usuario.
+1. <Navbar /> Barra de navegación en la parte superior de la página.
+2. <Banner /> Componente que muestra un banner destacado.
+3. <SearchBar /> Componente para realizar búsquedas de películas y emitir eventos para actualizar la lista de películas.
+4. <Loading /> Componente que muestra un indicador de carga mientras se obtienen los datos.
+5. <Movie /> Componente que representa una película individual en la interfaz de usuario.
+
+## PrimeVue
+- PrimeVue es una biblioteca de componentes UI para Vue.js que proporciona una amplia variedad de componentes visuales y estilizados.
+- <select> Se utiliza en el componente para ordenar las películas. PrimeVue ofrece componentes como dropdowns que pueden ser utilizados en lugar del componente nativo para una mayor personalización.
